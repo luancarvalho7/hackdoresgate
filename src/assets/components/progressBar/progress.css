@@ -1,0 +1,52 @@
+#progressBar {
+    width: 70vw;
+    height: 56px;
+    background-color: blue;
+    border-radius: 999px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+/*     overflow: hidden;
+ */
+
+ background: rgb(0, 0, 0);
+ background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 21, 29, 1) 100%);
+ background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 21, 29, 1) 100%);
+ background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 21, 29, 1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#0d151d", GradientType=1);
+}
+
+.progressFil {
+
+    transition: width 2.1s ease-in-out;
+    border-radius: 999px;
+    height:100%;
+    width: 30%;
+
+
+    background: linear-gradient(87deg, #0085FF 5.19%, #62E3FF 91.04%);}
+
+.progressInfo {
+    user-select: none;
+    display: flex;
+    position: absolute;
+    right: -50px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.progressInfo h1 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hackTxt{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

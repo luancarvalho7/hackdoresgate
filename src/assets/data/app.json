@@ -1,0 +1,30 @@
+{
+    "logo": "https://i.postimg.cc/zfX8WpRM/logoapp.png",
+    "affLink": "https://zinbets.com/?ref=VC44EFSBW4",
+    "vipCheckout": " ",
+    "banners": {
+        "img2k": "https://i.postimg.cc/KzYkRq40/2000-por-semana.webp",
+        "imgcommunity": "https://i.postimg.cc/D0JScSrs/Participe.webp",
+        "imgvip": "https://i.postimg.cc/vBS19rVb/Seja-VIP.webp"
+    },
+    "pageheaderes": {
+        "bonus": "https://i.postimg.cc/7ZFFfTjL/demo-bg01.png",
+        "lives": "https://i.postimg.cc/RhxRdpXy/demo-bg02.png"
+    },
+    "vipcta": "https://i.postimg.cc/zGTCsFHd/vipcta.webp",
+    "telegram": "",
+    "community": "",
+    "memberArea": [
+        {
+            "title": "",
+            "description": "",
+            "thumb": "",
+            "link": ""
+        }
+    ],
+    "extrapages": {
+        "bonus": true,
+        "lives": false,
+        "tutorial": false
+    }
+}
