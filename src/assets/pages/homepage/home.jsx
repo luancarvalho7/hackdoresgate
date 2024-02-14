@@ -156,7 +156,7 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
           hoje?
         </h1>
 
-        <div className="gameGrid borderSpacing" >
+{/*         <div className="gameGrid borderSpacing" >
           {<Badge img={rocket} txt={"Crash"} extra={0} setCategory={setCategory} />}
 
           {<Badge img={slots} txt={"Slots"} extra={0} setCategory={setCategory} />}
@@ -164,7 +164,7 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
           {<Badge img={playingcards} txt={"Cassino"} extra={1} setCategory={setCategory} />}
 
           {<Badge img={ball} txt={"Esportes"} extra={2} setCategory={setCategory} />}
-        </div>
+        </div> */}
         <div className="liveGames">
           <div className="sectionTitle">
             <img src={signals} alt="" width={22} height={22} id="signalsIcon" />
@@ -172,10 +172,10 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
           </div>
           {
             category == null ? <section className="liveGamesGrid">
-              <GameSection title="Crash" gameType="crash" data={data} setSGame={setSGame} sort="vip" />
-              <GameSection title="Slots" gameType="slots" data={data} setSGame={setSGame} sort="vip" />
-              <GameSection title="Casino" gameType="casino" data={data} setSGame={setSGame} sort="vip" />
-            </section> : ''
+{/*               <GameSection title="Crash" gameType="crash" data={data} setSGame={setSGame} sort="vip" />
+ */}              <GameSection title="Slots" gameType="slots" data={data} setSGame={setSGame} sort="vip" />
+{/*               <GameSection title="Casino" gameType="casino" data={data} setSGame={setSGame} sort="vip" />
+ */}            </section> : ''
           }
 
           {category == null ? "" : <GameCategorySection title={category} gameType={checkedCategory()} data={data} setSGame={setSGame} sort="vip" />}

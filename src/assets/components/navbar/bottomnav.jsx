@@ -114,7 +114,7 @@ export function BottomNav({ v33, vipAccess = false, extrapages, checkout, }) {
                     </button>}
 
 
-                    {vipAccess ? '' :
+{/*                     {vipAccess ? '' :
                         <button
                             className="bn-btn"
                         >
@@ -122,7 +122,7 @@ export function BottomNav({ v33, vipAccess = false, extrapages, checkout, }) {
                                 <VipDmd />
                                 <h3>Seja VIP</h3>
                             </a>
-                        </button>}
+                        </button>} */}
                 </div>
                 
             </nav>

@@ -282,8 +282,8 @@ function App() {
           <BottomNav vipAccess={vipAccess} fullFill={fullFill} extrapages={appData.extrapages} checkout={appData.vipCheckout} />
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={false} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
-            <Route path="/modevip" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={true} setVipAccess={setVipAccess} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
+{/*             <Route path="/" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={false} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
+ */}            <Route path="/" element={<Home data={gamesData} selectedGame={selectedGame} setSGame={setSGame} vipAccess={true} setVipAccess={setVipAccess} checkout={appData.vipCheckout} communityLink={appData.community} banners={appData.banners} vipcta={appData.vipcta} />} />
             <Route path="/chat" element={<ChatPage
               game={selectedGame.game}
               analystPfp={selectedGame.analystPfp}

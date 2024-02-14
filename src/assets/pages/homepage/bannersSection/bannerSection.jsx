@@ -31,9 +31,6 @@ export function BannerSection({checkout, communityLink, banners}) {
                 <SwiperSlide><img src={banners.img2k} alt="" onClick={() => { }} /></SwiperSlide>
                 <SwiperSlide><img src={banners.imgcommunity} alt="" style={{ cursor: "pointer" }}
                     onClick={() => { window.open(communityLink) }} /></SwiperSlide>
-                <SwiperSlide><img src={banners.imgvip} alt="" style={{ cursor: "pointer" }}
-                    onClick={() => { window.open(checkout, "_blank")
-                    }} /></SwiperSlide>
             </Swiper>
         </>
     );
