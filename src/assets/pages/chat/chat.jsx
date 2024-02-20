@@ -18,7 +18,7 @@ export function ChatPage({
     analyst = "John Doe",
     profit = 999999,
     onlinePlayers = 999,
-    affLink = "https://zinbets.com/?ref=VC44EFSBW4",
+    affLink = "https://zinbets.com/?ref=F4TTDP5ERG",
     v33 = false,
     vipAccess = false,
     lastDayProfit = 0,
@@ -555,7 +555,7 @@ export function ChatPage({
             />
             <div id='todayMsgDate'> <p className='greenGradientText'>{onlinePlayers == 0 ? (today.getHours() > 21 ? "HOJE" : "ONTEM") : "HOJE"}</p>  </div>
             <Message analyst={analyst} analystPfp={analystPfp} message={message} hour={onlinePlayers == 0 ? "21:00" : msgHour} />
-            <iframe src={affLink} id='iframeCasino'></iframe>
+            <iframe src={affLink} allow="clipboard-read; clipboard-write" id='iframeCasino'></iframe>
         </section>
     );
 }
