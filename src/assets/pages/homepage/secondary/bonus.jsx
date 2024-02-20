@@ -69,7 +69,7 @@ export function Bonus({ img, affLink, setFullFill }) {
                 </div>
             </div>
 
-            <iframe src={affLink} id='bonusiFrame' className={iFrameOn ? "" : "if-disabled"}></iframe>
+            <iframe src={affLink}  allow="clipboard-read; clipboard-write" id='bonusiFrame' className={iFrameOn ? "" : "if-disabled"}></iframe>
 
 
 
